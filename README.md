@@ -10,7 +10,7 @@ Demo project for running labs to evaluate Copilot viability
 
 ## Goal
 
-The goal of a GitHub Copilot Hackaton is to learn how to use it, using an exercise that consist of building a web server using Nodejs with different functionalities, a .NET Web API or a Java Rest API (either Spring Boot or Quarkus).
+The goal of a GitHub Copilot Hackaton is to learn how to use it.
 
 GitHub Copilot is an AI-powered code assistant that helps developers write better code faster. It uses machine learning models trained on billions of lines of code to suggest whole lines or entire functions based on the context of what you’re working on. By using Copilot, you can learn how to write better code and improve your productivity.
 
@@ -18,21 +18,19 @@ Remember:
 
 - As you type GitHub Copilot will make suggestions, you can accept them by pressing Tab.
 - If nothing shows up after Copilot write some lines , press enter and wait a couple of seconds.
-- On Windows, MacOS or Linux, press Ctrl + Enter, then click Open GitHub Copilot.
 
-## Pre-requisites
 
-**GitHub Copilot access**
+## Start the hack
 
-A 60 day trial can be requested here: https://github.com/github-copilot/signup
+The Environment is already configured & you just need to open the code in Github Codespaces - the green button that says "CODE". You might be asked to log into your GH acount. Then just sit back, wait 2-4minutes until the your development environment is set up and then choose the language you feel most familiar with or you want to be challenged by. 
 
-## Work with GitHub Codespaces
+The challenges are available in:
+- .net
+- java
+- node
+ 
 
-Environment is already configured to work with Github Codespaces, you can find the configuration files in the .devcontainer folder.
-
-To start programming just start a new codespace and you are ready to go, don't need to install anything.
-
-### Work locally
+### If you need to work locally
 
 **VisualStudio Code**
 
@@ -69,4 +67,3 @@ Run:
 - [Node Server](./exercisefiles/node/README.md)
 - [.NET Web API](./exercisefiles/dotnet/README.md)
 - [Java Spring Boot](./exercisefiles/springboot/README.md)
-- [Java Quarkus](./exercisefiles/quarkus/README.md)
